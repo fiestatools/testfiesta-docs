@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🎉 Partying with TestFiesta](README.md)
+* [🎉 Quick Start Guide](README.md)
 
 ## Getting Started
 
@@ -15,7 +15,7 @@
 ## TestFiesta For TestRail Users
 
 * [Getting Started](testfiesta-for-testrail-users/getting-started.md)
-* [Test Data Migration Options](testfiesta-for-testrail-users/migrating-from-testrail.md)
+* [Test Data Migration Options](testfiesta-for-testrail-users/test-data-migration-options.md)
 * [Integrations Options](testfiesta-for-testrail-users/integrations-options.md)
 * [Full TestRail Integration Tutorial](testfiesta-for-testrail-users/full-testrail-integration-tutorial.md)
 * [TestRail API Integration Deep Dive](testfiesta-for-testrail-users/testrail-api-integration-deep-dive.md)
@@ -286,7 +286,7 @@
   * [JavaScript](automation/testing-tools/javascript/README.md)
     * [Cypress](automation/testing-tools/javascript/cypress.md)
     * [Jest](automation/testing-tools/javascript/jest.md)
-    * [Vitest](<automation/testing-tools/javascript/vitest (1).md>)
+    * [Vitest](automation/testing-tools/javascript/vitest-1.md)
     * [Bun](automation/testing-tools/javascript/bun.md)
     * [Deno](automation/testing-tools/javascript/deno.md)
     * [Mocha](automation/testing-tools/javascript/mocha.md)

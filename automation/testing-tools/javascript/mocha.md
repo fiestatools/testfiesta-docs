@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Mocha
 
 <figure><img src="../../../.gitbook/assets/Mocha_logo.svg" alt="" width="256"><figcaption></figcaption></figure>

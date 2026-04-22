@@ -1,25 +1,27 @@
-# Jest
+# Vitest
 
-<div align="center" data-full-width="false"><figure><img src="../../../.gitbook/assets/jest-js-icon (1).svg" alt="" width="299"><figcaption></figcaption></figure></div>
+<figure><img src="../../../.gitbook/assets/vitest-8x (1).png" alt=""><figcaption></figcaption></figure>
 
-Jest is a delightful JavaScript Testing Framework with a focus on simplicity.It works with projects using: [Babel](https://babeljs.io/), [TypeScript](https://www.typescriptlang.org/), [Node](https://nodejs.org/), [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue](https://vuejs.org/) and more! Jest can generate standard format JUnit-style XML files which can be submited to Testfiesta or Testrail using Tacotruck CLI. You just need to install the popular [`jest-junit`](https://www.npmjs.com/package/jest-junit) package and install tacotruck cli or use [Github action](https://github.com/testfiesta/tacotruck-action). Check out simple jest [example](https://github.com/testfiesta/tacotruck-examples/tree/main/demo-jest-tf).
+Vitest is a fast and lightweight testing framework built on Vite. It offers API for unit, integration, and component testing, and works seamlessly with modern JavaScript and TypeScript projects like [React](https://reactjs.org/), [Vue](https://vuejs.org/) , and others. Vitest can generate standard format JUnit-style XML files which can be submited to Testfiesta or Testrail using Tacotruck CLI. You just need to install the popular [`vitest`](https://vitest.dev/guide/) package and install tacotruck cli or use [Github action](https://github.com/testfiesta/tacotruck-action). Check simple vitest [example](https://github.com/testfiesta/tacotruck-examples/tree/main/demo-vitest-tf)
 
 ### Configuration
 
-To generate xml report file output,  folder and file name should be configured in config file
+To generate xml report file  report  output type,  file name path should be configured in config file
 
-```javascript
-//jest.config.js
+```typescript
+//vitest.config.ts
+import { defineConfig } from "vitest/config";
 
-/** @type {import('jest').Config} */
-const config = {
-  reporters: [
-    'default',
-    ['jest-junit', {outputDirectory: 'reports', outputName: 'test-results.xml'}],
-  ],
-};
-
-module.exports = config;
+export default defineConfig({
+  test: {
+    watch: false,
+    exclude: [],
+    reporters: ["default", ["junit"]],
+    outputFile: {
+      junit: "./test-results.xml"
+    }
+  },
+});
 ```
 
 ### Install Tacotruck CLI
@@ -51,7 +53,7 @@ tacotruck testfiesta \
 {% tabs %}
 {% tab title="Testfiesta" %}
 ```yaml
-name: jest
+name: vitest
 on:
   pull_request:
     branches:
@@ -65,7 +67,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./demo-jest-tf
+        working-directory: ./demo-vitest-tf
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -84,8 +86,8 @@ jobs:
          project: project
          base-url: https://staging.api.testfiesta.com
          credentials: ${{ secrets.TESTFIESTA_API_KEY }}
-         run-name: Jest CI run ${{ github.run_number }}
-         results-path: ./demo-jest-tf/reports/test-results.xml
+         run-name: Vitest CI run ${{ github.run_number }}
+         results-path: ./demo-vitest-tf/test-results.xml
 ```
 {% endtab %}
 {% endtabs %}
@@ -93,7 +95,7 @@ jobs:
 ### Support and Resources
 
 * [TacoTruck Examples](https://github.com/testfiesta/tacotruck-examples)
-* [Jest Docs](https://jestjs.io/docs/getting-started)
+* [Vitest Docs](https://vitest.dev/guide)
 * [Tacotruck Issues](https://github.com/testfiesta/tacotruck/issues)
 * [**CLI Reference**](../../tacotruck-cli/)
 * [Tacotruck Github Action](https://github.com/testfiesta/tacotruck-action)

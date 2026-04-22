@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Bun
 
 <figure><img src="../../../.gitbook/assets/bun (1).svg" alt=""><figcaption></figcaption></figure>

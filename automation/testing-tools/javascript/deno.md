@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Deno
 
 <figure><img src="../../../.gitbook/assets/Deno_Logo_2024.svg.png" alt="" width="256"><figcaption></figcaption></figure>
