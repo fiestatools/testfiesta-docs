@@ -5,7 +5,7 @@ description: >-
   TestFiesta's full TestRail integration.
 ---
 
-# TestRail API Integration Guide
+# Full TestRail Integration Tutorial
 
 With TestFiesta's full TestRail integration, TestRail users are able to migrate their existing TestRail data into TestFiesta in a matter of minutes! To learn in greater detail what data is migrated & how it works see the next section "[TestRail API Integration Deep Dive](testrail-api-integration-deep-dive.md)" for more information!\
 \
@@ -14,6 +14,7 @@ Migrating is easy, just follow these simple steps!
 ## Checklist:
 
 * [ ] Create a TestFiesta account & organization: [https://app.testfiesta.com/signup](https://app.testfiesta.com/signup)
+* [ ] Create a project
 
 {% embed url="https://youtu.be/yikDrWIun6g" %}
 
