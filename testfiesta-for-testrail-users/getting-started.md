@@ -6,6 +6,8 @@ description: >-
 
 # Getting Started
 
+{% embed url="https://youtu.be/97K6nudAXAA" %}
+
 ## Onboarding steps
 
 This section will walk TestRail users through the initial steps to start using TestFiesta, from creating an account to setting up your team and exploring optional migration and integration options. Each step builds on TestRail’s familiar workflows, making onboarding straightforward.
