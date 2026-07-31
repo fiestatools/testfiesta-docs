@@ -7,6 +7,8 @@ description: >-
 
 # Test Data Migration Options
 
+{% embed url="https://youtu.be/v3I3MqKr1Ds" %}
+
 ## Migration Options
 
 Whether you’re using TestRail Cloud or Server, these methods ensure your test cases, runs, plans, milestones, attachments, and history are imported efficiently, with minimal disruption. Below, we detail each option, how to execute it, and which scenarios it suits best, drawing from TestFiesta’s intuitive migration tools and comprehensive integration capabilities.
