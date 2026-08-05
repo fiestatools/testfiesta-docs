@@ -8,9 +8,11 @@ description: >-
 
 ## Importing Test Cases with CSV
 
+{% embed url="https://www.youtube.com/watch?v=v3I3MqKr1Ds" %}
+
 <details>
 
-<summary>Step 1: Click the Import Button </summary>
+<summary>Step 1: Click the Import Button</summary>
 
 On the Test Cases home page, click the import button on the top right of the screen and choose "Import from CSV" from the choices. This will take you to the "Import from CSV" page
 
@@ -20,9 +22,9 @@ On the Test Cases home page, click the import button on the top right of the scr
 
 <details>
 
-<summary>Step 2: Choose file and name </summary>
+<summary>Step 2: Choose file and name</summary>
 
-Drag or drop a file to import, choose where your importing it to, the template and the name for the Test Case.&#x20;
+Drag or drop a file to import, choose where your importing it to, the template and the name for the Test Case.
 
 </details>
 
@@ -30,9 +32,9 @@ Drag or drop a file to import, choose where your importing it to, the template a
 
 <details>
 
-<summary>Step 3: Click "Go to Column Mapping" </summary>
+<summary>Step 3: Click "Go to Column Mapping"</summary>
 
-This will bring you to the Column mapping page&#x20;
+This will bring you to the Column mapping page
 
 </details>
 
@@ -40,9 +42,9 @@ This will bring you to the Column mapping page&#x20;
 
 <summary>Step 4: Match CSV and TestFiesta Fields and click "Go to Preview"</summary>
 
-Make sure the CSV fields match with the TestFiesta fields they will be importing into so that all fields import into TestFiesta appropriately.&#x20;
+Make sure the CSV fields match with the TestFiesta fields they will be importing into so that all fields import into TestFiesta appropriately.
 
-Once you are done, click "Go to preview" to see what the import will look like and will allow you to come back to Column mapping if you notice a mistake.&#x20;
+Once you are done, click "Go to preview" to see what the import will look like and will allow you to come back to Column mapping if you notice a mistake.
 
 </details>
 
@@ -50,21 +52,19 @@ Once you are done, click "Go to preview" to see what the import will look like a
 
 <details>
 
-<summary>Step 5: Confirm details and click "Import all" </summary>
+<summary>Step 5: Confirm details and click "Import all"</summary>
 
-This will finish the import and your Test Case should appear in the available list.&#x20;
+This will finish the import and your Test Case should appear in the available list.
 
 </details>
 
 <figure><img src="../../.gitbook/assets/770_Test Cases 43_Test cases list - Import from CSV - Import preview (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## Exporting Test Cases to Excel
 
 <details>
 
-<summary>Step 1: Click the Export Button. </summary>
+<summary>Step 1: Click the Export Button.</summary>
 
 On the Test Cases home page, click the export button on the top right of the screen and choose "Export to " from the choices. This will take you to the "Export to Excel" page
 
@@ -76,7 +76,7 @@ On the Test Cases home page, click the export button on the top right of the scr
 
 <summary>Step 2: Choose the format, Test Folders and Fields to export</summary>
 
-You may choose between .csv or .xlsx formats to export. You may also choose to export all Test Folders or you can choose to export specific Test Folders. Finally you can choose all the fields you want to export to Excel.&#x20;
+You may choose between .csv or .xlsx formats to export. You may also choose to export all Test Folders or you can choose to export specific Test Folders. Finally you can choose all the fields you want to export to Excel.
 
 </details>
 
@@ -84,9 +84,9 @@ You may choose between .csv or .xlsx formats to export. You may also choose to e
 
 <details>
 
-<summary>Step 3: Click "Export" </summary>
+<summary>Step 3: Click "Export"</summary>
 
-Once you are done deciding what Test Folders and fields you want to export, click the "Export" button to complete the export.&#x20;
+Once you are done deciding what Test Folders and fields you want to export, click the "Export" button to complete the export.
 
 </details>
 
